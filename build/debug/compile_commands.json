@@ -1,0 +1,50 @@
+[
+{
+  "directory": "D:/CSC109/CH10/MENUITEM/build/debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/unittest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unittest.dir\\runner.cpp.obj -c D:\\CSC109\\CH10\\MENUITEM\\build\\debug\\runner.cpp",
+  "file": "D:/CSC109/CH10/MENUITEM/build/debug/runner.cpp",
+  "output": "CMakeFiles/unittest.dir/runner.cpp.obj"
+},
+{
+  "directory": "D:/CSC109/CH10/MENUITEM/build/debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/unittest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unittest.dir\\Drink.cpp.obj -c D:\\CSC109\\CH10\\MENUITEM\\Drink.cpp",
+  "file": "D:/CSC109/CH10/MENUITEM/Drink.cpp",
+  "output": "CMakeFiles/unittest.dir/Drink.cpp.obj"
+},
+{
+  "directory": "D:/CSC109/CH10/MENUITEM/build/debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/unittest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unittest.dir\\Desert.cpp.obj -c D:\\CSC109\\CH10\\MENUITEM\\Desert.cpp",
+  "file": "D:/CSC109/CH10/MENUITEM/Desert.cpp",
+  "output": "CMakeFiles/unittest.dir/Desert.cpp.obj"
+},
+{
+  "directory": "D:/CSC109/CH10/MENUITEM/build/debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/unittest.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\unittest.dir\\MenuItem.cpp.obj -c D:\\CSC109\\CH10\\MENUITEM\\MenuItem.cpp",
+  "file": "D:/CSC109/CH10/MENUITEM/MenuItem.cpp",
+  "output": "CMakeFiles/unittest.dir/MenuItem.cpp.obj"
+},
+{
+  "directory": "D:/CSC109/CH10/MENUITEM/build/debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/ReviewList.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ReviewList.dir\\runner.cpp.obj -c D:\\CSC109\\CH10\\MENUITEM\\build\\debug\\runner.cpp",
+  "file": "D:/CSC109/CH10/MENUITEM/build/debug/runner.cpp",
+  "output": "CMakeFiles/ReviewList.dir/runner.cpp.obj"
+},
+{
+  "directory": "D:/CSC109/CH10/MENUITEM/build/debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/ReviewList.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ReviewList.dir\\Drink.cpp.obj -c D:\\CSC109\\CH10\\MENUITEM\\Drink.cpp",
+  "file": "D:/CSC109/CH10/MENUITEM/Drink.cpp",
+  "output": "CMakeFiles/ReviewList.dir/Drink.cpp.obj"
+},
+{
+  "directory": "D:/CSC109/CH10/MENUITEM/build/debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/ReviewList.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ReviewList.dir\\Desert.cpp.obj -c D:\\CSC109\\CH10\\MENUITEM\\Desert.cpp",
+  "file": "D:/CSC109/CH10/MENUITEM/Desert.cpp",
+  "output": "CMakeFiles/ReviewList.dir/Desert.cpp.obj"
+},
+{
+  "directory": "D:/CSC109/CH10/MENUITEM/build/debug",
+  "command": "C:\\msys64\\mingw64\\bin\\c++.exe  @CMakeFiles/ReviewList.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\ReviewList.dir\\MenuItem.cpp.obj -c D:\\CSC109\\CH10\\MENUITEM\\MenuItem.cpp",
+  "file": "D:/CSC109/CH10/MENUITEM/MenuItem.cpp",
+  "output": "CMakeFiles/ReviewList.dir/MenuItem.cpp.obj"
+}
+]

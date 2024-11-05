@@ -1,0 +1,3 @@
+C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\MENUITEMS.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\MENUITEMS.dir/objects.a @CMakeFiles\MENUITEMS.dir\objects1.rsp
+C:\msys64\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\MENUITEMS.dir/objects.a -Wl,--no-whole-archive -o MENUITEMS.exe -Wl,--out-implib,libMENUITEMS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MENUITEMS.dir\linkLibs.rsp
