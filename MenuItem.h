@@ -15,7 +15,7 @@ public:
     virtual void display() = 0;    // pure virtual function
     double getPrice(); 
     string getName(); 
-    bool operator==(const MenuItem); // compare two MenuItems
+    virtual bool operator==(const MenuItem); // compare two MenuItems
 private:
     double price;
     string name;
