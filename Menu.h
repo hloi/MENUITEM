@@ -19,10 +19,8 @@ public:
     void addMenuItem(MenuItem*); // add a MenuItem to the menu
     void removeMenuItem(string); // remove a MenuItem from the menu
     MenuItem* findMenuItem(string); // find a MenuItem in the menu
-    void displayMenuItem(string); // display a MenuItem
-    void displayMenuItems(); // display all MenuItems
     bool operator==(const Menu); // compare two Menus
-    bool operator!=(const Menu); // compare two Menus
+    
     
 };
 
