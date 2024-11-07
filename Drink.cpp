@@ -14,3 +14,7 @@ void Drink::display()
 
 }
 
+bool Drink::operator==(const Drink& d) const
+{
+    return this->getName() == d.getName() && this->getPrice() == d.getPrice();
+}

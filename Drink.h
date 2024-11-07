@@ -8,8 +8,8 @@ class Drink : public MenuItem
 public:
     Drink() {} // default constructor
     Drink(string name, double price); // constructor with parameters
-    void display(); // display function
-    bool operator==(const Drink); // compare two Drinks
+    void display() override; // display function
+    bool operator==(const Drink& d) const; // compare two Drinks
 
     
 };

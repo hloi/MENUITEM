@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ReviewList.exe"
+			"path" : "MENUITEMS.exe"
 		},
 		{
-			"path" : "ReviewList.pdb"
+			"path" : "MENUITEMS.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 30,
+				"line" : 37,
 				"parent" : 0
 			},
 			{
@@ -69,11 +69,13 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4,
+				5
 			]
 		}
 	],
-	"id" : "ReviewList::@6890427a1f51a3e7e1df",
+	"id" : "MENUITEMS::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -93,8 +95,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "ReviewList",
-	"nameOnDisk" : "ReviewList.exe",
+	"name" : "MENUITEMS",
+	"nameOnDisk" : "MENUITEMS.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -109,20 +111,8 @@
 				0,
 				1,
 				2,
-				3
-			]
-		},
-		{
-			"name" : "Header Files",
-			"sourceIndexes" : 
-			[
-				4
-			]
-		},
-		{
-			"name" : "CMake Rules",
-			"sourceIndexes" : 
-			[
+				3,
+				4,
 				5
 			]
 		}
@@ -132,8 +122,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"isGenerated" : true,
-			"path" : "build/debug/runner.cpp",
+			"path" : "main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -156,14 +145,15 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "newCxxTest.h",
-			"sourceGroupIndex" : 1
+			"compileGroupIndex" : 0,
+			"path" : "MainCourse.cpp",
+			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 0,
-			"isGenerated" : true,
-			"path" : "build/debug/runner.cpp.rule",
-			"sourceGroupIndex" : 2
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Menu.cpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

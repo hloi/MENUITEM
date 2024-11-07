@@ -1,4 +1,6 @@
-CMakeFiles/MENUITEMS.dir/main.cpp.obj: D:\CSC109\CH10\MENUITEM\main.cpp \
+CMakeFiles/MENUITEMS.dir/MainCourse.cpp.obj: \
+ D:\CSC109\CH10\MENUITEM\MainCourse.cpp \
+ D:\CSC109\CH10\MENUITEM\MainCourse.h \
  C:/msys64/mingw64/include/c++/14.1.0/iostream \
  C:/msys64/mingw64/include/c++/14.1.0/bits/requires_hosted.h \
  C:/msys64/mingw64/include/c++/14.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -137,11 +139,4 @@ CMakeFiles/MENUITEMS.dir/main.cpp.obj: D:\CSC109\CH10\MENUITEM\main.cpp \
  C:/msys64/mingw64/include/c++/14.1.0/bits/ostream.tcc \
  C:/msys64/mingw64/include/c++/14.1.0/istream \
  C:/msys64/mingw64/include/c++/14.1.0/bits/istream.tcc \
- D:\CSC109\CH10\MENUITEM\Drink.h D:\CSC109\CH10\MENUITEM\MenuItem.h \
- D:\CSC109\CH10\MENUITEM\Desert.h D:\CSC109\CH10\MENUITEM\MainCourse.h \
- D:\CSC109\CH10\MENUITEM\Menu.h \
- C:/msys64/mingw64/include/c++/14.1.0/vector \
- C:/msys64/mingw64/include/c++/14.1.0/bits/stl_uninitialized.h \
- C:/msys64/mingw64/include/c++/14.1.0/bits/stl_vector.h \
- C:/msys64/mingw64/include/c++/14.1.0/bits/stl_bvector.h \
- C:/msys64/mingw64/include/c++/14.1.0/bits/vector.tcc
+ D:\CSC109\CH10\MENUITEM\MenuItem.h

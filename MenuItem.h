@@ -13,9 +13,9 @@ public:
     virtual ~MenuItem();                   // default destructor
     MenuItem(string name, double price);      // constructor with parameters
     virtual void display() = 0;    // pure virtual function
-    double getPrice(); 
-    string getName(); 
-    bool operator==(const MenuItem); // compare two MenuItems
+    double getPrice() const; 
+    string getName() const; 
+    virtual bool operator==(const MenuItem& mi); // compare two MenuItems
 private:
     double price;
     string name;

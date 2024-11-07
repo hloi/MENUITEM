@@ -10,6 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/CSC109/CH10/MENUITEM/Desert.cpp" "CMakeFiles/MENUITEMS.dir/Desert.cpp.obj" "gcc" "CMakeFiles/MENUITEMS.dir/Desert.cpp.obj.d"
   "D:/CSC109/CH10/MENUITEM/Drink.cpp" "CMakeFiles/MENUITEMS.dir/Drink.cpp.obj" "gcc" "CMakeFiles/MENUITEMS.dir/Drink.cpp.obj.d"
+  "D:/CSC109/CH10/MENUITEM/MainCourse.cpp" "CMakeFiles/MENUITEMS.dir/MainCourse.cpp.obj" "gcc" "CMakeFiles/MENUITEMS.dir/MainCourse.cpp.obj.d"
+  "D:/CSC109/CH10/MENUITEM/Menu.cpp" "CMakeFiles/MENUITEMS.dir/Menu.cpp.obj" "gcc" "CMakeFiles/MENUITEMS.dir/Menu.cpp.obj.d"
   "D:/CSC109/CH10/MENUITEM/MenuItem.cpp" "CMakeFiles/MENUITEMS.dir/MenuItem.cpp.obj" "gcc" "CMakeFiles/MENUITEMS.dir/MenuItem.cpp.obj.d"
   "D:/CSC109/CH10/MENUITEM/main.cpp" "CMakeFiles/MENUITEMS.dir/main.cpp.obj" "gcc" "CMakeFiles/MENUITEMS.dir/main.cpp.obj.d"
   )

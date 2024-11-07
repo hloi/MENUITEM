@@ -6,17 +6,17 @@ using std::string;
 
 #include "MenuItem.h"
 
-class MainCourse {
+class MainCourse : public MenuItem {
     private: 
     string description;
 
 public:
     MainCourse(); // default constructor
-    ~MainCourse(); // default destructor
+    // ~MainCourse(); // default destructor
     MainCourse(string name, double price, string description); // constructor with parameters
     void display(); // display function
-    bool operator==(const MainCourse); // compare two MainCourses       
-    
+    bool operator==(const MainCourse& d) const; // compare two MainCourses       
+
 
 
     

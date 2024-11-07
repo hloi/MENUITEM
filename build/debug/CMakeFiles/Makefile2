@@ -62,8 +62,7 @@ CMAKE_BINARY_DIR = D:\CSC109\CH10\MENUITEM\build\debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/unittest.dir/all
-all: CMakeFiles/ReviewList.dir/all
+all: CMakeFiles/MENUITEMS.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,61 +70,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/unittest.dir/clean
-clean: CMakeFiles/ReviewList.dir/clean
+clean: CMakeFiles/MENUITEMS.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/unittest.dir
+# Target rules for target CMakeFiles/MENUITEMS.dir
 
 # All Build rule for target.
-CMakeFiles/unittest.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CSC109\CH10\MENUITEM\build\debug\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target unittest"
-.PHONY : CMakeFiles/unittest.dir/all
+CMakeFiles/MENUITEMS.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CSC109\CH10\MENUITEM\build\debug\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target MENUITEMS"
+.PHONY : CMakeFiles/MENUITEMS.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/unittest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CSC109\CH10\MENUITEM\build\debug\CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/unittest.dir/all
+CMakeFiles/MENUITEMS.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CSC109\CH10\MENUITEM\build\debug\CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/MENUITEMS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CSC109\CH10\MENUITEM\build\debug\CMakeFiles 0
-.PHONY : CMakeFiles/unittest.dir/rule
+.PHONY : CMakeFiles/MENUITEMS.dir/rule
 
 # Convenience name for target.
-unittest: CMakeFiles/unittest.dir/rule
-.PHONY : unittest
+MENUITEMS: CMakeFiles/MENUITEMS.dir/rule
+.PHONY : MENUITEMS
 
 # clean rule for target.
-CMakeFiles/unittest.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/clean
-.PHONY : CMakeFiles/unittest.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ReviewList.dir
-
-# All Build rule for target.
-CMakeFiles/ReviewList.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CSC109\CH10\MENUITEM\build\debug\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target ReviewList"
-.PHONY : CMakeFiles/ReviewList.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ReviewList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CSC109\CH10\MENUITEM\build\debug\CMakeFiles 6
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/ReviewList.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CSC109\CH10\MENUITEM\build\debug\CMakeFiles 0
-.PHONY : CMakeFiles/ReviewList.dir/rule
-
-# Convenience name for target.
-ReviewList: CMakeFiles/ReviewList.dir/rule
-.PHONY : ReviewList
-
-# clean rule for target.
-CMakeFiles/ReviewList.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/clean
-.PHONY : CMakeFiles/ReviewList.dir/clean
+CMakeFiles/MENUITEMS.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/clean
+.PHONY : CMakeFiles/MENUITEMS.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

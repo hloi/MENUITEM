@@ -126,38 +126,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named unittest
+# Target rules for targets named MENUITEMS
 
 # Build rule for target.
-unittest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 unittest
-.PHONY : unittest
+MENUITEMS: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MENUITEMS
+.PHONY : MENUITEMS
 
 # fast build rule for target.
-unittest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/build
-.PHONY : unittest/fast
-
-#=============================================================================
-# Target rules for targets named ReviewList
-
-# Build rule for target.
-ReviewList: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ReviewList
-.PHONY : ReviewList
-
-# fast build rule for target.
-ReviewList/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/build
-.PHONY : ReviewList/fast
+MENUITEMS/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/build
+.PHONY : MENUITEMS/fast
 
 Desert.obj: Desert.cpp.obj
 .PHONY : Desert.obj
 
 # target to build an object file
 Desert.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/Desert.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/Desert.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Desert.cpp.obj
 .PHONY : Desert.cpp.obj
 
 Desert.i: Desert.cpp.i
@@ -165,8 +151,7 @@ Desert.i: Desert.cpp.i
 
 # target to preprocess a source file
 Desert.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/Desert.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/Desert.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Desert.cpp.i
 .PHONY : Desert.cpp.i
 
 Desert.s: Desert.cpp.s
@@ -174,8 +159,7 @@ Desert.s: Desert.cpp.s
 
 # target to generate assembly for a file
 Desert.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/Desert.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/Desert.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Desert.cpp.s
 .PHONY : Desert.cpp.s
 
 Drink.obj: Drink.cpp.obj
@@ -183,8 +167,7 @@ Drink.obj: Drink.cpp.obj
 
 # target to build an object file
 Drink.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/Drink.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/Drink.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Drink.cpp.obj
 .PHONY : Drink.cpp.obj
 
 Drink.i: Drink.cpp.i
@@ -192,8 +175,7 @@ Drink.i: Drink.cpp.i
 
 # target to preprocess a source file
 Drink.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/Drink.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/Drink.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Drink.cpp.i
 .PHONY : Drink.cpp.i
 
 Drink.s: Drink.cpp.s
@@ -201,17 +183,63 @@ Drink.s: Drink.cpp.s
 
 # target to generate assembly for a file
 Drink.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/Drink.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/Drink.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Drink.cpp.s
 .PHONY : Drink.cpp.s
+
+MainCourse.obj: MainCourse.cpp.obj
+.PHONY : MainCourse.obj
+
+# target to build an object file
+MainCourse.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/MainCourse.cpp.obj
+.PHONY : MainCourse.cpp.obj
+
+MainCourse.i: MainCourse.cpp.i
+.PHONY : MainCourse.i
+
+# target to preprocess a source file
+MainCourse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/MainCourse.cpp.i
+.PHONY : MainCourse.cpp.i
+
+MainCourse.s: MainCourse.cpp.s
+.PHONY : MainCourse.s
+
+# target to generate assembly for a file
+MainCourse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/MainCourse.cpp.s
+.PHONY : MainCourse.cpp.s
+
+Menu.obj: Menu.cpp.obj
+.PHONY : Menu.obj
+
+# target to build an object file
+Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Menu.cpp.obj
+.PHONY : Menu.cpp.obj
+
+Menu.i: Menu.cpp.i
+.PHONY : Menu.i
+
+# target to preprocess a source file
+Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Menu.cpp.i
+.PHONY : Menu.cpp.i
+
+Menu.s: Menu.cpp.s
+.PHONY : Menu.s
+
+# target to generate assembly for a file
+Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/Menu.cpp.s
+.PHONY : Menu.cpp.s
 
 MenuItem.obj: MenuItem.cpp.obj
 .PHONY : MenuItem.obj
 
 # target to build an object file
 MenuItem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/MenuItem.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/MenuItem.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/MenuItem.cpp.obj
 .PHONY : MenuItem.cpp.obj
 
 MenuItem.i: MenuItem.cpp.i
@@ -219,8 +247,7 @@ MenuItem.i: MenuItem.cpp.i
 
 # target to preprocess a source file
 MenuItem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/MenuItem.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/MenuItem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/MenuItem.cpp.i
 .PHONY : MenuItem.cpp.i
 
 MenuItem.s: MenuItem.cpp.s
@@ -228,36 +255,32 @@ MenuItem.s: MenuItem.cpp.s
 
 # target to generate assembly for a file
 MenuItem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/MenuItem.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/MenuItem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/MenuItem.cpp.s
 .PHONY : MenuItem.cpp.s
 
-runner.obj: runner.cpp.obj
-.PHONY : runner.obj
+main.obj: main.cpp.obj
+.PHONY : main.obj
 
 # target to build an object file
-runner.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/runner.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/runner.cpp.obj
-.PHONY : runner.cpp.obj
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-runner.i: runner.cpp.i
-.PHONY : runner.i
+main.i: main.cpp.i
+.PHONY : main.i
 
 # target to preprocess a source file
-runner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/runner.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/runner.cpp.i
-.PHONY : runner.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-runner.s: runner.cpp.s
-.PHONY : runner.s
+main.s: main.cpp.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-runner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\unittest.dir\build.make CMakeFiles/unittest.dir/runner.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ReviewList.dir\build.make CMakeFiles/ReviewList.dir/runner.cpp.s
-.PHONY : runner.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MENUITEMS.dir\build.make CMakeFiles/MENUITEMS.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -268,20 +291,25 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... test
-	@echo ... ReviewList
-	@echo ... unittest
+	@echo ... MENUITEMS
 	@echo ... Desert.obj
 	@echo ... Desert.i
 	@echo ... Desert.s
 	@echo ... Drink.obj
 	@echo ... Drink.i
 	@echo ... Drink.s
+	@echo ... MainCourse.obj
+	@echo ... MainCourse.i
+	@echo ... MainCourse.s
+	@echo ... Menu.obj
+	@echo ... Menu.i
+	@echo ... Menu.s
 	@echo ... MenuItem.obj
 	@echo ... MenuItem.i
 	@echo ... MenuItem.s
-	@echo ... runner.obj
-	@echo ... runner.i
-	@echo ... runner.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

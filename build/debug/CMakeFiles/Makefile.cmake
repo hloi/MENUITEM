@@ -57,6 +57,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/unittest.dir/DependInfo.cmake"
-  "CMakeFiles/ReviewList.dir/DependInfo.cmake"
+  "CMakeFiles/MENUITEMS.dir/DependInfo.cmake"
   )

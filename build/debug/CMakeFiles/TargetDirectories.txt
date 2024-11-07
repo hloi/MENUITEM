@@ -1,5 +1,4 @@
-D:/CSC109/CH10/MENUITEM/build/debug/CMakeFiles/unittest.dir
-D:/CSC109/CH10/MENUITEM/build/debug/CMakeFiles/ReviewList.dir
+D:/CSC109/CH10/MENUITEM/build/debug/CMakeFiles/MENUITEMS.dir
 D:/CSC109/CH10/MENUITEM/build/debug/CMakeFiles/test.dir
 D:/CSC109/CH10/MENUITEM/build/debug/CMakeFiles/edit_cache.dir
 D:/CSC109/CH10/MENUITEM/build/debug/CMakeFiles/rebuild_cache.dir

@@ -15,3 +15,8 @@ void Desert::display()
 {
     cout << "Desert: " << getName() << " Price: " << getPrice() << endl;
 }
+
+bool Desert::operator==(const Desert& d) const
+{
+    return this->getName() == d.getName() && this->getPrice() == d.getPrice();
+}

@@ -16,7 +16,7 @@ public:
     //~Desert(); // default destructor
 
     void display(); // display function
-    bool operator==(const Desert); // compare two Deserts
+    bool operator==(const Desert& d) const; // compare two Deserts
     
 
     

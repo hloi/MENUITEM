@@ -20,7 +20,8 @@
 #include "MenuItem.h"
 #include "Desert.h"
 #include "Drink.h"
-
+#include "MainCourse.h"
+#include "Menu.h"
 
 class newCxxTest : public CxxTest::TestSuite {
 public:
@@ -41,6 +42,64 @@ public:
         TS_ASSERT_EQUALS(de.getName(), "Cake");
         TS_ASSERT_DELTA(de.getPrice(), 3.50, 0.001);
     }
+       
+    void testMainCourse() {
+        MainCourse mc("Steak", 10.50, "Tenderloin");
+        mc.display();
+        TS_ASSERT_EQUALS(mc.getName(), "Steak");
+        TS_ASSERT_DELTA(mc.getPrice(), 10.50, 0.001);
+    }   
+    
+    void testOperator2() {
+        MainCourse mc1("Steak", 10.50, "Tenderloin");
+        MainCourse mc2("Steak", 10.50, "Tenderloin");
+        TS_ASSERT(mc1 == mc2);
+    }
+    void testOperator3() {
+        Drink d1("Coke", 1.50);
+        Drink d2("Coke", 1.50);
+        TS_ASSERT(d1 == d2);
+    }   
+    void testMenu1() {
+        Menu m;
+        
+        Drink* d = new Drink("Coke", 1.50);
+        Desert* de = new Desert("Cake", 3.50);
+        MainCourse* mc = new MainCourse("Steak", 10.50, "Tenderloin");
+        
+        m.addMenuItem(d);
+        m.addMenuItem(de);
+        m.addMenuItem(mc);
+        m.displayMenu();
+        
+        TS_ASSERT(*(m.findMenuItem("Coke")) == *d);
+        TS_ASSERT(*m.findMenuItem("Cake") == *de);
+        TS_ASSERT(*m.findMenuItem("Steak") == *mc);
+
+
+    }
+    void testMenu2() {
+        Menu m;
+        
+        Drink* d = new Drink("Coke", 1.50);
+        Desert* de = new Desert("Cake", 3.50);
+        MainCourse* mc = new MainCourse("Steak", 10.50, "Tenderloin");
+        
+        m.addMenuItem(d);
+        m.addMenuItem(de);
+        m.addMenuItem(mc);
+        m.displayMenu();
+        
+        m.removeMenuItem("Coke");
+        m.removeMenuItem("Cake");
+        m.removeMenuItem("Steak");
+        m.displayMenu();
+        
+        TS_ASSERT(m.findMenuItem("Coke") == nullptr);
+        TS_ASSERT(m.findMenuItem("Cake") == nullptr);
+        TS_ASSERT(m.findMenuItem("Steak") == nullptr);
+    }
+    
 };
 #endif /* NEWCXXTEST_H */
 
